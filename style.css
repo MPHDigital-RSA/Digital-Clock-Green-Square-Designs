@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Itim&family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+
+body {
+    margin: 0;
+    background-image: url("Digital\ clock\ background.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: poppins;
+
+}
+
+.heading {
+    font-size: 45px;
+    color: rgb(131, 128, 128);
+}
+
+.greenSquare {
+    color: green;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.items {
+    width: 130px;
+    height: 100px;
+    background-color: rgb(131, 128, 128);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.items h1 {
+    font-weight: 100;
+}
+
+.semi-colon {
+    color: green;
+    font-size: 72px;
+}
