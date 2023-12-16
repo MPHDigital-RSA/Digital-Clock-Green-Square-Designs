@@ -64,7 +64,7 @@ body {
     font-size: 72px;
 }
 
-@media screen and (max-width:568px) {
+/* @media screen and (max-width:568px) {
     .heading {
         font-size: 20px;
     }
@@ -83,9 +83,9 @@ body {
         height: 80px
     }
 
-}
+} */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:568px) {
     .heading {
         font-size: 16px;
     }
@@ -98,6 +98,7 @@ body {
     .semi-colon {
         font-size: 32px;
     }
+
 
     .items {
         font-size: 16px;
