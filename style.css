@@ -64,6 +64,43 @@ body {
     font-size: 72px;
 }
 
+.buttons {
+    display: flex;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button:nth-child(1) {
+    background-color: rgb(131, 128, 128);
+    color: white;
+    border-radius: 10px 0 0 10px;
+    margin-left: 0;
+}
+
+button:nth-child(1):hover {
+    background-color: rgb(131, 128, 128);
+    cursor: pointer;
+}
+
+button:nth-child(2) {
+
+    background-color: green;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    margin-right: 0;
+}
+
+button:nth-child(2):hover {
+
+    background-color: rgba(0, 128, 0, 0.845);
+    cursor: pointer;
+}
+
+
 /* @media screen and (max-width:568px) {
     .heading {
         font-size: 20px;
@@ -87,7 +124,7 @@ body {
 
 @media screen and (max-width:568px) {
     .heading {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .container {
